@@ -31,32 +31,16 @@ body {
 }
 
 .crumb {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px 8px;
   font-family: var(--mono);
   font-size: 13px;
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
   margin-bottom: 1.75rem;
   padding-bottom: 0.75rem;
   border-bottom: 0.5px solid var(--border);
 }
 
-.crumb-home {
-  display: inline-flex;
-  color: var(--text-tertiary);
-  line-height: 0;
-}
-.crumb-home svg { display: block; }
-.crumb-home:hover { color: var(--accent); }
-
-.crumb-sep { color: var(--text-tertiary); opacity: 0.6; }
-
-.crumb-parent { color: var(--accent); text-decoration: none; }
-.crumb-parent:hover { text-decoration: underline; }
-
-.crumb-updated { color: var(--text-tertiary); white-space: nowrap; }
+.crumb a.home { color: var(--accent); text-decoration: none; }
+.crumb a.home:hover { text-decoration: underline; }
 
 h1 {
   font-size: 26px;
@@ -114,4 +98,65 @@ h1 {
   line-height: 1.6;
   margin-bottom: 1.75rem;
   max-width: 60ch;
+}
+
+/* Article body */
+article {
+  font-size: 15px;
+  font-weight: 300;
+  color: #c7cbd6;
+  line-height: 1.8;
+  letter-spacing: 0.1px;
+  max-width: 60ch;
+}
+
+article h3 {
+  color: #8fa3c4;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 2rem 0 0.6rem;
+}
+
+.changelog {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 0.5px solid var(--border);
+  font-family: var(--mono);
+  font-size: 12px;
+}
+
+.changelog summary {
+  cursor: pointer;
+  color: var(--text-secondary);
+  list-style: none;
+}
+
+.changelog .entries-log {
+  margin-top: 8px;
+  padding-left: 14px;
+  border-left: 0.5px solid var(--border);
+  color: var(--text-tertiary);
+  line-height: 1.7;
+}
+
+.comments {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 0.5px solid var(--border);
+}
+
+.comments-label {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.comments-embed {
+  border: 0.5px dashed rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 1.25rem;
+  font-size: 12px;
+  color: #5f677e;
+  font-family: var(--mono);
+  text-align: center;
 }
