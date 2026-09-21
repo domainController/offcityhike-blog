@@ -32,7 +32,7 @@ body {
 
 .crumb {
   font-family: var(--mono);
-  font-size: clamp(13px, calc(11.2px + 0.5vw), 15px);
+  font-size: clamp(13px, calc(12.46px + 0.15vw), 13.6px);
   color: var(--text-secondary);
   margin-bottom: 1.75rem;
   padding-bottom: 0.75rem;
@@ -53,13 +53,13 @@ body {
 .crumb a.site-link:hover { text-decoration: underline; }
 
 h1 {
-  font-size: clamp(26px, calc(22.4px + 1vw), 30px);
+  font-size: clamp(26px, calc(24.92px + 0.3vw), 27.2px);
   font-weight: 500;
   margin: 0 0 8px;
 }
 
 .subtitle {
-  font-size: clamp(14px, calc(12.2px + 0.5vw), 16px);
+  font-size: clamp(14px, calc(13.46px + 0.15vw), 14.6px);
   color: var(--text-secondary);
   margin: 0 0 2rem;
   max-width: 52ch;
@@ -79,7 +79,7 @@ h1 {
 }
 
 .entry-title a {
-  font-size: clamp(15px, calc(13.2px + 0.5vw), 17px);
+  font-size: clamp(15px, calc(14.46px + 0.15vw), 15.6px);
   color: var(--text-primary);
   text-decoration: none;
 }
@@ -87,7 +87,7 @@ h1 {
 .entry-title a:hover { color: var(--accent); }
 
 .entry-desc {
-  font-size: clamp(13px, calc(11.2px + 0.5vw), 15px);
+  font-size: clamp(13px, calc(12.46px + 0.15vw), 13.6px);
   color: var(--text-tertiary);
   margin-top: 2px;
   max-width: 56ch;
@@ -95,7 +95,7 @@ h1 {
 
 .pill {
   font-family: var(--mono);
-  font-size: clamp(11px, calc(9.2px + 0.5vw), 13px);
+  font-size: clamp(11px, calc(10.46px + 0.15vw), 11.6px);
   padding: 1px 7px;
   border-radius: 4px;
 }
@@ -104,7 +104,7 @@ h1 {
 .pill.draft { background: var(--draft-bg); color: var(--draft-text); }
 
 .intro {
-  font-size: clamp(14px, calc(12.2px + 0.5vw), 16px);
+  font-size: clamp(14px, calc(13.46px + 0.15vw), 14.6px);
   color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 1.75rem;
@@ -113,7 +113,7 @@ h1 {
 
 /* Article body */
 article {
-  font-size: clamp(15px, calc(13.2px + 0.5vw), 17px);
+  font-size: clamp(15px, calc(14.46px + 0.15vw), 15.6px);
   font-weight: 300;
   color: #c7cbd6;
   line-height: 1.8;
@@ -123,7 +123,7 @@ article {
 
 article h3 {
   color: #8fa3c4;
-  font-size: clamp(15px, calc(13.2px + 0.5vw), 17px);
+  font-size: clamp(15px, calc(14.46px + 0.15vw), 15.6px);
   font-weight: 500;
   margin: 2rem 0 0.6rem;
 }
@@ -133,7 +133,7 @@ article h3 {
   padding-top: 1.5rem;
   border-top: 0.5px solid var(--border);
   font-family: var(--mono);
-  font-size: clamp(12px, calc(10.2px + 0.5vw), 14px);
+  font-size: clamp(12px, calc(11.46px + 0.15vw), 12.6px);
 }
 
 .changelog summary {
@@ -157,7 +157,7 @@ article h3 {
 }
 
 .comments-label {
-  font-size: clamp(14px, calc(12.2px + 0.5vw), 16px);
+  font-size: clamp(14px, calc(13.46px + 0.15vw), 14.6px);
   color: var(--text-secondary);
   margin-bottom: 0.75rem;
 }
@@ -166,7 +166,7 @@ article h3 {
   border: 0.5px dashed rgba(255, 255, 255, 0.15);
   border-radius: 8px;
   padding: 1.25rem;
-  font-size: clamp(12px, calc(10.2px + 0.5vw), 14px);
+  font-size: clamp(12px, calc(11.46px + 0.15vw), 12.6px);
   color: #5f677e;
   font-family: var(--mono);
   text-align: center;
