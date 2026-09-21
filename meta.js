@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var el = document.getElementById('updated-time');
   if (!el) return;
 
-  var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var months = ['January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'];
 
   var d = new Date(document.lastModified);
   var hours = d.getHours();
@@ -11,6 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var h12 = hours % 12 || 12;
   var minutes = ('0' + d.getMinutes()).slice(-2);
 
-  el.textContent = d.getDate() + ' ' + months[d.getMonth()] + "'" + String(d.getFullYear()).slice(-2) +
-    ', ' + h12 + ':' + minutes + ' ' + ampm;
+  el.textContent = months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear() +
+    ' at ' + h12 + ':' + minutes + ' ' + ampm;
 });
