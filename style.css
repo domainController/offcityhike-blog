@@ -25,7 +25,7 @@ body {
 }
 
 .wrap {
-  max-width: 640px;
+  max-width: 780px;
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
 }
@@ -70,6 +70,9 @@ h1 {
   flex-direction: column;
   gap: 1.5rem;
   margin-top: 2rem;
+  margin-left: 20px;
+  padding-left: 16px;
+  border-left: 1px solid var(--border);
 }
 
 .entry-title {
@@ -80,7 +83,7 @@ h1 {
 
 .entry-title a {
   font-size: clamp(15px, calc(14.46px + 0.15vw), 15.6px);
-  color: var(--text-primary);
+  color: var(--text-secondary);
   text-decoration: none;
 }
 
