@@ -52,6 +52,12 @@ body {
 .crumb a.site-link { color: var(--accent); text-decoration: none; }
 .crumb a.site-link:hover { text-decoration: underline; }
 
+/* ---- Portfolio anchor (right-aligned, distinct from the left "home" icon
+   which points at this site's own home) — violet to match the portfolio's
+   own link-internal accent, not the blog's --accent blue. ---- */
+.crumb a.home-icon-right { color: #a888d0; text-decoration: none; margin-left: auto; }
+.crumb a.home-icon-right:hover { text-decoration: underline; }
+
 h1 {
   font-size: clamp(26px, calc(24.92px + 0.3vw), 27.2px);
   font-weight: 500;
