@@ -105,6 +105,7 @@ h1 {
 
 .pill.live { background: var(--live-bg); color: var(--live-text); }
 .pill.draft { background: var(--draft-bg); color: var(--draft-text); }
+.pill.temp { background: rgba(255, 255, 255, 0.08); color: var(--text-tertiary); }
 
 .intro {
   font-size: clamp(14px, calc(13.46px + 0.15vw), 14.6px);
